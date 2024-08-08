@@ -15,7 +15,7 @@ function About() {
 	}, [id])
 
     if (loading) {
-        return <p>Loading...</p>
+        return <div>Loading...</div>
     }
 
 	return (
